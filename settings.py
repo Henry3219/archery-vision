@@ -1,0 +1,26 @@
+OUTPUT_SIZE = 600
+INPUT_DIR = "images"
+OUTPUT_DIR = "results"
+
+# 靶纸最外圈蓝色HSV范围
+BLUE_HSV_LOWER = (100, 80, 40)
+BLUE_HSV_UPPER = (130, 255, 255)
+
+# 靶心黄色区域HSV范围
+YELLOW_HSV_LOWER = (18, 80, 80)
+YELLOW_HSV_UPPER = (45, 255, 255)
+
+# 红色环带HSV范围
+RED_HSV_LOWER = (0, 100, 70)
+RED_HSV_UPPER = (10, 255, 255)
+RED2_HSV_LOWER = (165, 100, 70)
+RED2_HSV_UPPER = (180, 255, 255)
+
+# 轮廓被视为“圆”的最低圆形度 (4*PI*面积/周长^2)
+MIN_CIRCULARITY = 0.00
+
+# 在蓝色信标周围扩展ROI的比例因子
+ROI_PADDING_FACTOR = 0.8
+
+# --- 调试选项 ---
+DEBUG_MODE = True
