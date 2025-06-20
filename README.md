@@ -70,7 +70,7 @@ pip install opencv-python numpy matplotlib scikit-learn
 **第四步：配置**
 
 -   将靶纸图像 (`.jpg`, `.png` 格式) 放入 `images` 文件夹。
--   在 `settings.py` 文件中调整算法参数（如颜色范围、输出尺寸等）。
+-   在 `settings.py` 文件中调整颜色范围、输出尺寸等参数。
 
 **第五步：运行程序**
 ```bash
